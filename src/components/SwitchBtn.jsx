@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from "react";
-import { LuSunMoon } from "react-icons/lu";
+import { FaRegMoon } from "react-icons/fa";
 import { RxSwitch } from "react-icons/rx";
 
 function SwitchBtn() {
@@ -16,7 +16,7 @@ function SwitchBtn() {
   return (
 
          <div className="switch-mode">
-          <LuSunMoon />
+         <FaRegMoon />
           <button onClick={handleDarkModeClick}>
             <RxSwitch />
           </button>
