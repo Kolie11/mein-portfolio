@@ -61,19 +61,7 @@ function Home() {
               <div className="pictures" style={{ marginTop: "2rem", textAlign: "center" }}>
                 <button
                   onClick={handleShow}
-                  style={{
-                    padding: "1rem 1rem",
-                    backgroundColor: "#7FDEFF",
-                    border: "none",
-                    borderRadius: "5px",
-                    cursor: "pointer",
-                    fontWeight: "bold",
-                    boxShadow: "-2px -2px 0px 0px #333",
-                    transition: "background-color 0.3s ease",
-                    fontSize: "1rem",
-                    color: "#fff"
-                    // color:"#fff"
-                  }}
+                
                 >
                   Meine Designs ansehen
                 </button>
