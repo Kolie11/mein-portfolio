@@ -1,6 +1,6 @@
 import Services from "./Services";
 import myImage from "/src/assets/mathi11.jpg";
-import { PiPencilCircleThin } from "react-icons/pi";
+import { GoPencil } from "react-icons/go";
 import { IoCodeSlashSharp } from "react-icons/io5";
 import { RiSeoFill } from "react-icons/ri";
 import { TfiRulerPencil } from "react-icons/tfi";
@@ -63,7 +63,7 @@ export default function About() {
 
       <div className="services-of-dev">
         <Services
-          logo={<PiPencilCircleThin />}
+          logo={<GoPencil/>}
           title="UI/UX Design"
           text="Ich gestalte intuitive und ästhetisch ansprechende Benutzeroberflächen, die das Nutzererlebnis verbessern und die Markenidentität widerspiegeln."
         />
