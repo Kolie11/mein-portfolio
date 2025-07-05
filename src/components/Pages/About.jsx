@@ -6,6 +6,8 @@ import { RiSeoFill } from "react-icons/ri";
 import { TfiRulerPencil } from "react-icons/tfi";
 import { CiVideoOn } from "react-icons/ci";
 import { FaBookReader } from "react-icons/fa";
+import { User } from 'phosphor-react';
+
 
 export default function About() {
   return (
@@ -21,6 +23,7 @@ export default function About() {
         </div>
         <div className="right-sec">
           <h2>
+            <User size={24} weight="bold" style={{ marginRight: "8px" }} />
             Ich bin <span id="name">Fassou Mathias Kolie</span>
           </h2>
           <p className="about-text">
